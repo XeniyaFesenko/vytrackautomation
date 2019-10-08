@@ -94,7 +94,7 @@ public class CalendarEventsPage {
 			new WebDriverWait(Driver.get(), 3).until(ExpectedConditions.invisibilityOf(startTime));
 		} catch (Exception e) {
 			System.out.println(e);
-			System.out.println(e);
+			System.out.println("How are you");
 		}
 		LocalTime actualEndTime = LocalTime.parse(endTime.getAttribute("value"), DateTimeFormatter.ofPattern("h:mm a"));
 		return ChronoUnit.HOURS.between(actualStartTime, actualEndTime);
