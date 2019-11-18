@@ -129,8 +129,10 @@ public class CalendarEventsPage {
 			new WebDriverWait(Driver.get(), 3).until(ExpectedConditions.invisibilityOf(startTime));
 		} catch (Exception e){
 			System.out.println(e);
+			System.out.println("How are you");
 		}
 		LocalTime actualEndTime = LocalTime.parse(endTime.getAttribute("value"), DateTimeFormatter.ofPattern("h:mm a"));
+<<<<<<< HEAD
 
 		return actualEndTime.minusHours(actualStartTime.getHour()).getHour();
 	}
@@ -158,6 +160,11 @@ public class CalendarEventsPage {
 
 	public boolean verifyDaysCheckboxIsSelected() {
 		return repeatEveryDays.isSelected();
+=======
+		return ChronoUnit.HOURS.between(actualStartTime, actualEndTime);
+
+
+>>>>>>> b988a6474f6a97d488add454109f36fb9bd8c120
 	}
 
 	public String getRepeatsEveryValue() {

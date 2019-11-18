@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="38e87e4d-c3da-467d-9840-c1aaa916adda" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/target/test-classes/Brite_ERP/CRM_Module.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/Brite_ERP/SearchProduct.class" afterDir="false" />
@@ -24,6 +25,9 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/components/activities/CalendarEventsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/components/activities/CalendarEventsTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CalendarEventsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/CalendarEventsPage.class" afterDir="false" />
     </list>
+=======
+    <list default="true" id="38e87e4d-c3da-467d-9840-c1aaa916adda" name="Default Changelist" comment="" />
+>>>>>>> b988a6474f6a97d488add454109f36fb9bd8c120
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1P3teWQathumi08GFNJiFULvRVT" />
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+>>>>>>> b988a6474f6a97d488add454109f36fb9bd8c120
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -232,9 +239,13 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+=======
+            <State />
+>>>>>>> b988a6474f6a97d488add454109f36fb9bd8c120
           </value>
         </entry>
       </map>
